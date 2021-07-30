@@ -1,0 +1,31 @@
+type: legs
+legCount: 25
+legLength: 100
+allowLegStep: true
+hovering: true
+legBaseOffset: 0
+legExtension: -10
+legSpeed: 0.01
+buildSpeed: 6.1
+legSplashDamage: 1000
+legSplashRange: 72
+name: "plantera"
+health: 900000
+speed: 4
+drag: 0.4
+hitSize: 20
+rotateSpeed: 10
+weapons: [
+{
+  name: alpha-bg
+  x: 0
+  y: 5
+  reload: 16
+  alternate: false
+  bullet: {
+    type: ContinuousLaserBulletType
+    damage: 100000
+  }
+  shootSound: shootBig
+}
+]

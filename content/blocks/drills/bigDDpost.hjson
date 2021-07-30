@@ -1,0 +1,23 @@
+type: Drill
+health: 3200
+name: "bigDDpost"
+size: 7
+requirements: [
+titanium/750
+thorium/750
+silicon/1000
+] 
+tier: 60
+drillTime: 340
+liquidBoostIntensity: 1.5
+rotateSpeed: 50
+drawRim: true
+consumes: {
+power: 4
+liquid: {
+liquid: slag
+amount: 5
+optional: true
+booster: true
+}} 
+category: production

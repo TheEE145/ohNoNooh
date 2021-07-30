@@ -1,0 +1,6 @@
+type: wall
+size: 6
+requirements: [
+    copper/5
+]
+category: distribution

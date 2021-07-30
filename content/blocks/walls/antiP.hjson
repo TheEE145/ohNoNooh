@@ -1,0 +1,11 @@
+type: wall
+name: "antiP"
+health: 1242353453425345
+size: 2
+category: defense
+requirements: [
+copper/600
+lead/500
+graphite/400
+silicon/300
+] 

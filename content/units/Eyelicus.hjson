@@ -1,0 +1,35 @@
+type: flying
+flying: true
+buildSpeed: 6.1
+legSplashDamage: 1000
+legSplashRange: 72
+name: "Eyelicus"
+health: 2423932
+speed: 4
+drag: 0.4
+hitSize: 20
+rotateSpeed: 10
+weapons: [
+{
+  name: alpha-bg
+  x: 0
+  y: 5
+  reload: 16
+  alternate: false
+  bullet: {
+    type: BasicBulletType
+    width: 20
+    height: 60
+    damage: 200000
+    speed: 10
+    lifetime: 100
+    pierce: false
+    ammoMultiplier: 4
+    hitShake: 1
+    hitEffect: instHit
+    smokeEffect: smokeCloud
+    despawnEffect: instBomb
+  }
+  shootSound: shootBig
+}
+]

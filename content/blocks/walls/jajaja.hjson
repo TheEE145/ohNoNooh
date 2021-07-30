@@ -1,0 +1,11 @@
+type: wall
+name: "jajaja"
+health: 50000
+size: 5
+category: defense
+requirements: [
+copper/60
+lead/50
+graphite/40
+silicon/30
+] 

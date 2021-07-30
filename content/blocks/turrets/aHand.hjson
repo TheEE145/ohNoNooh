@@ -1,0 +1,64 @@
+type: PowerTurret
+name: "aHand"
+health: 100
+powerUse: 6
+shots: 5
+size: 4
+burstSpacing: 10
+shootShake: 0.5
+recoilAmount: 3
+range: 240
+alternate: true
+shootShake: 1
+shootSound: shootBig
+reloadTime: 1
+shootType: {
+  type: BasicBulletType
+  splashDamage: 100
+  splashDamageRadius: 50
+  hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: WaveEffect
+          lifetime: 30
+          sizeFrom: 0
+          sizeTo: 45
+          colorFrom: 0000FF
+          colorTo: 00FFFF
+          strokeFrom: 15
+          strokeTo: 0
+        }
+      ] 
+    }
+  lifetime: 50
+  speed: 5
+  damage: 90000
+  pierce: false
+  ammoMultiplier: 4
+  width: 10
+  height: 20
+  backColor: 0000FF
+  hitShake: 1
+  weaveScale: 3
+  weaveMag: 5
+  trailChance: 1
+  trailEffect: {
+      type: ParticleEffect
+      length: 0
+      lifetime: 20
+      particles: 1
+      colorFrom: 0000FF
+      colorTo: 00FFFF
+      sizeFrom: 6
+      sizeTo: 6
+      region: particle
+    }
+} 
+requirements: [
+copper/60
+lead/50
+graphite/40
+silicon/30
+] 
+category: turret
