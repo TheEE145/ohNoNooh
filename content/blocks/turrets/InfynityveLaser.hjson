@@ -1,0 +1,26 @@
+type: PowerTurret
+name: "InfynitiveLaser"
+health: 100
+powerUse: 6
+shots: 1
+size: 3
+burstSpacing: 10
+shootShake: 0.5
+recoilAmount: 3
+range: 240
+alternate: true
+shootShake: 1
+shootSound: shootBig
+reloadTime: 1
+shootType: {
+  type: ContinuousLaserBulletType
+  damage: 10000
+  lifetime: 200
+} 
+requirements: [
+copper/60
+lead/50
+graphite/40
+silicon/30
+] 
+category: turret
