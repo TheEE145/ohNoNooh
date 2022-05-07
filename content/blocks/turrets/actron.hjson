@@ -24,7 +24,7 @@ ammoTypes: {
     fragBullet: {
       type: BasicBulletType
       speed: 9
-      damage: 150
+      damage: 15000
       width: 10
       height: 10
       pierce: true
@@ -38,7 +38,7 @@ ammoTypes: {
       fragBullet: {
         type: BasicBulletType
         speed: 9
-        damage: 150
+        damage: 15000
         width: 10
         height: 10
         pierce: true
@@ -52,7 +52,7 @@ ammoTypes: {
         fragBullet: {
           type: BasicBulletType
           speed: 9
-          damage: 15
+          damage: 15000
           width: 10
           height: 10
           pierce: true
