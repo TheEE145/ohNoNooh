@@ -15,7 +15,7 @@ ammoTypes: {
     height: 21
     lifetime: 60
     speed: 7
-    damage: 4000
+    damage: 40000
     pierce: false
     ammoMultiplier: 4
     fragBullets: 8

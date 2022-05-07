@@ -10,7 +10,7 @@ ammoTypes: {
   rodlonCrystal: {
     type: LaserBulletType
     length: 880
-    damage: 100
+    damage: 10000
     width: 20
     lifetime: 60
     largeHit: true
