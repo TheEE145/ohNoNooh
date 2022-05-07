@@ -1,0 +1,11 @@
+type: material
+name: "редлонський кристал"
+description: "матеріал, який потрібен для більшість туреллів"
+color: FF0000
+research: {
+  parent: copper
+  requirements: [
+    copper/1000
+    lead/1000
+  ]
+}

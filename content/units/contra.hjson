@@ -1,0 +1,61 @@
+type: flying
+flying: true
+health: 500
+speed: 4
+drag: 0.1
+buildSpeed: 50
+mineSpeed: 50
+itemCapacity: 500
+mineTier: 100000000000000
+weapons: [
+    {
+        bullet: {
+            type: MissileBulletType
+            width: 8
+            height: 8
+            damage: 100
+            speed: 3
+            shrinkY: 0
+            drag: -0.01
+            splashDamageRadius: 30
+            splashDamage: 60
+            ammoMultiplier: 4
+            lifetime: 50
+            hitEffect: blastExplosion
+            despawnEffect: blastExplosion
+            status: blasted
+            status: burning
+            tatusDuration: 60
+        } 
+        name: contra-weapon
+        x: 4
+        y: -5
+        reload: 15
+        alternate: true
+    }
+    {
+        bullet: {
+            type: MissileBulletType
+            width: 8
+            height: 8
+            damage: 100
+            speed: 3
+            shrinkY: 0
+            drag: -0.01
+            splashDamageRadius: 30
+            splashDamage: 60
+            ammoMultiplier: 4
+            lifetime: 50
+            hitEffect: blastExplosion
+            despawnEffect: blastExplosion
+            status: blasted
+            status: burning
+            tatusDuration: 60
+        } 
+        name: contra-weapon
+        x: 1
+        y: 4
+        reload: 15
+        alternate: true
+    }
+]

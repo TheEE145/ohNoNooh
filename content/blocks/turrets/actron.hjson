@@ -1,0 +1,83 @@
+type: ItemTurret
+name: "актрон"
+health: 4000
+size: 4
+range: 960
+shootShake: 1
+shootSound: shootBig
+reloadTime: 60
+ammoTypes: {
+  rodlonCrystal: {
+    width: 10
+    height: 20
+    type: BasicBulletType
+    width: 15
+    height: 21
+    lifetime: 60
+    speed: 7
+    damage: 4000
+    pierce: false
+    ammoMultiplier: 4
+    fragBullets: 8
+    fragLifeMin: 0.2
+    fragCone: 800
+    fragBullet: {
+      type: BasicBulletType
+      speed: 9
+      damage: 150
+      width: 10
+      height: 10
+      pierce: true
+      lifetime: 20
+      hitEffect: blastExplosion
+      splashDamage: 45
+      splashDamageRadius: 20
+      fragBullets: 8
+      fragLifeMin: 0.02
+      fragCone: 800
+      fragBullet: {
+        type: BasicBulletType
+        speed: 9
+        damage: 150
+        width: 10
+        height: 10
+        pierce: true
+        lifetime: 20
+        hitEffect: blastExplosion
+        splashDamage: 45
+        splashDamageRadius: 20
+        fragBullets: 8
+        fragLifeMin: 700
+        fragCone: 800
+        fragBullet: {
+          type: BasicBulletType
+          speed: 9
+          damage: 15
+          width: 10
+          height: 10
+          pierce: true
+          lifetime: 20
+          hitEffect: blastExplosion
+          splashDamage: 45
+          splashDamageRadius: 20
+        } 
+      } 
+    }
+  }
+} 
+requirements: [
+copper/5000
+lead/5000
+graphite/3000
+surge-alloy/2500
+antrophiumCrystal/250
+] 
+consumes: {
+  liquid: {
+    liquid: slag
+    amount: 2
+    optional: true
+    booster: true
+  }
+} 
+category: turret

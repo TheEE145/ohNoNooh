@@ -1,0 +1,10 @@
+type: material
+name: "антропічний кристал"
+color: 00FF00
+research: {
+  parent: copper
+  requirements: [
+    copper/1000
+    lead/1000
+  ]
+}

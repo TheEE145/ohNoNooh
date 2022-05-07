@@ -1,0 +1,31 @@
+name: "риба"
+type: itemTurret
+requirements: [
+silicon/1200
+surge-alloy/100
+thorium/720
+antrophiumCrystal/500
+] 
+ammoTypes: {
+  rodlonCrystal: {
+    type: LaserBulletType
+    length: 880
+    damage: 100
+    width: 20
+    lifetime: 60
+    largeHit: true
+    collidesTeam: true
+    sideAngle: 15
+    sideWidth: 0
+    sideLength: 0
+    colors: [00FFFF, 0000FF, 0055FF]
+  }
+}
+reloadTime: 22.5
+shots: 1
+burstSpacing: 3
+inaccuracy: 0.2
+range: 880
+size: 4
+health: 2500
+category: turret

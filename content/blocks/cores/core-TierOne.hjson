@@ -1,0 +1,16 @@
+type: CoreBlock
+name: "ядро контра"
+health: 60000
+itemCapacity: 50000
+size: 5
+unitType: contra
+unitCapModifier: 28
+requirements: [
+  copper/9000
+  lead/9000
+  silicon/9000
+  thorium/9000
+  antrophiumCrystal/9000
+] 
+category: effect
+research: core-nucleus
