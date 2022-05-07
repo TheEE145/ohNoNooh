@@ -4,6 +4,9 @@ description: "used for extract cryofluid from ground!"
 type: GenericCrafter
 health: 180
 size: 2
+drawer: {
+  type: drawAnimation
+}
 
 hasLiquids: true
 hasPower: true
