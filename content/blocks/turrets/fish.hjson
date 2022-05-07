@@ -1,4 +1,4 @@
-name: "риба"
+name: "fish"
 type: itemTurret
 requirements: [
 silicon/1200

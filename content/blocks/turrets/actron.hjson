@@ -1,5 +1,5 @@
 type: ItemTurret
-name: "актрон"
+name: "actron"
 health: 4000
 size: 4
 range: 960
