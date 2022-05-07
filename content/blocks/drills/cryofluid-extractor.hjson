@@ -1,7 +1,7 @@
 name: "cryofluid extractor"
 description: "used for extract cryofluid from ground!"
 
-type: GenericCrafter
+type: SolidPump
 health: 180
 size: 2
 drawer: {
@@ -11,7 +11,9 @@ drawer: {
 hasLiquids: true
 hasPower: true
 liquidCapacity: 24
-outputLiquid: cryofluid
+result: cryofluid
+rotateSpeed: 3
+baseEfficiency: 6
 
 consumes: {
   power: 6
