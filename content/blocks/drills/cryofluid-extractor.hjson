@@ -1,7 +1,7 @@
 name: "cryofluid extractor"
 description: "used for extract cryofluid from ground!"
 
-type: extractor
+type: GenericCrafter
 health: 180
 size: 2
 
