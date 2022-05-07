@@ -14,7 +14,8 @@ weapons: [
   name: alpha-bg
   x: 0
   y: 5
-  reload: 16
+  reload: 1.5
+  fragCone: 80
   alternate: false
   bullet: {
     type: BasicBulletType
@@ -26,9 +27,48 @@ weapons: [
     pierce: false
     ammoMultiplier: 4
     hitShake: 1
-    hitEffect: instHit
+    hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: WaveEffect
+          lifetime: 30
+          sizeFrom: 0
+          sizeTo: 45
+          colorFrom: 0000FF
+          colorTo: 00FFFF
+          strokeFrom: 15
+          strokeTo: 0
+        }
+      ] 
+    }
     smokeEffect: smokeCloud
-    despawnEffect: instBomb
+    despawnEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: WaveEffect
+          lifetime: 30
+          sizeFrom: 0
+          sizeTo: 45
+          colorFrom: 0000FF
+          colorTo: 00FFFF
+          strokeFrom: 15
+          strokeTo: 0
+        }
+      ] 
+    }
+    trailEffect: {
+      type: ParticleEffect
+      length: 0
+      lifetime: 20
+      particles: 1
+      colorFrom: 0000FF
+      colorTo: 00FFFF
+      sizeFrom: 6
+      sizeTo: 6
+      region: particle
+    }
   }
   shootSound: shootBig
 }

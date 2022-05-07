@@ -9,12 +9,13 @@ legSpeed: 0.01
 buildSpeed: 6.1
 legSplashDamage: 1000
 legSplashRange: 72
-name: "plantera"
+name: "plant"
 health: 900000
 speed: 4
 drag: 0.4
 hitSize: 20
 rotateSpeed: 10
+shoots: 5
 weapons: [
 {
   name: alpha-bg
@@ -24,7 +25,8 @@ weapons: [
   alternate: false
   bullet: {
     type: ContinuousLaserBulletType
-    damage: 100000
+    damage: 90000
+    speed: 50
   }
   shootSound: shootBig
 }
