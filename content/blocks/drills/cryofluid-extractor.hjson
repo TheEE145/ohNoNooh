@@ -10,7 +10,8 @@ drawer: {
 
 hasLiquids: true
 hasPower: true
-result: cryofluid
+liquidCapacity: 24
+outputLiquid: cryofluid
 
 consumes: {
   power: 6
