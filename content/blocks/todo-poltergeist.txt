@@ -1,0 +1,30 @@
+name: "cryofluid extractor"
+description: "used for extract cryofluid from ground!"
+
+type: extractor
+health: 180
+size: 2
+
+hasLiquids: true
+hasPower: true
+result: cryofluid
+
+consumes: {
+  power: 6
+}
+
+requirements: [
+lead/40
+metaglass/20
+graphite/30
+]
+
+research: {
+  parent: liquid-extractor
+  requirements: [
+    lead/400
+    metaglass/200
+    graphite/300
+  ]
+}
+category: production
