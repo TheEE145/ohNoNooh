@@ -50,3 +50,4 @@ weapons: [
   ejectEffect: casing1
   bullet: standardCopper
 }
+]
