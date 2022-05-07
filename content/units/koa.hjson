@@ -4,7 +4,7 @@ health: 9000
 speed: 2
 drag: 0.4
 hitSize: 20
-rotateSpeed: 0.06
+rotateSpeed: 999
 weapons: [
 {
   name: koa-weapon
