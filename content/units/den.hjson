@@ -1,0 +1,48 @@
+type: mech
+name: "den"
+speed: 0.75
+drag: 0.4
+hitSize: 10
+targetAir: true
+health: 2250
+weapons: [
+  {
+  name: den-weapon
+  x: 6
+  y: 0
+  reload: 10
+  alternate: true
+  recoil: 4
+  shake: 2
+  bullet: {
+    type: MissileBulletType
+    speed: 5
+	  damage: 50
+	  ammoMultiplier: 2
+    hitEffect: blastExplosion
+    backColor: 00ffff
+    frontColor: 000000
+  }
+  shootSound: artillery
+}
+  {
+  name: den-weapon
+  x: 9
+  y: 0
+  reload: 10
+  alternate: true
+  recoil: 4
+  shake: 2
+  bullet: {
+    type: MissileBulletType
+    speed: 5
+	  damage: 50
+	  ammoMultiplier: 2
+    hitEffect: blastExplosion
+    backColor: 00ffff
+    frontColor: 000000
+  }
+  shootSound: artillery
+}
+]
+research: iron-furnace

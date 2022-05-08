@@ -1,0 +1,8 @@
+type: Wall
+health: 9000
+size: 3
+requirements: [
+milenium/54
+]
+category: defense
+research: milenium-large-wall

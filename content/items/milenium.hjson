@@ -1,8 +1,8 @@
 type: material
-name: "atrophium crystal"
-color: 00FF00
+name: "milenium"
+color: FF00FF
 research: {
-  parent: copper
+  parent: duo
   requirements: [
     copper/1000
     lead/1000

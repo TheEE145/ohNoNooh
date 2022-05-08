@@ -1,6 +1,5 @@
 type: material
-name: "редлонський кристал"
-description: "матеріал, який потрібен для більшість туреллів"
+name: "rodlon crystal"
 color: FF0000
 research: {
   parent: copper

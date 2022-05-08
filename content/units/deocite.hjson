@@ -1,0 +1,25 @@
+2type: mech
+name: "deocite"
+speed: 0.75
+drag: 0.4
+hitSize: 10
+targetAir: true
+health: 2250
+weapons: [{
+  name: deocite-weapon
+  x: 9
+  y: 0
+  reload: 60
+  alternate: true
+  recoil: 4
+  shake: 2
+  ejectEffect: casing2
+  bullet: {
+    type: ShrapnelBulletType
+	  length: 140
+	  damage: 200
+	  ammoMultiplier: 2
+  }
+  shootSound: artillery
+}]
+research: oltilat

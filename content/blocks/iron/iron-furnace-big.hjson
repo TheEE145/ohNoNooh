@@ -1,0 +1,20 @@
+type: GenericCrafter
+itemCapacity: 30
+outputItem: iron/5
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 70
+updateEffect: smeltsmoke
+consumes: {
+power: 1.2
+item: iron-ore
+}
+requirements: [
+copper/75
+lead/25
+]
+category: crafting
+research: iron-furnace
+idleSound: respawning
+idleSoundVolume: 0.5

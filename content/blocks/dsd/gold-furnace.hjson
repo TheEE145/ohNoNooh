@@ -1,0 +1,21 @@
+type: GenericCrafter
+itemCapacity: 10
+outputItem: gold/1
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+power: 0.6
+item: gold-ore
+}
+requirements: [
+copper/75
+lead/25
+iron/50
+]
+category: crafting
+research: gold
+idleSound: respawning
+idleSoundVolume: 0.5

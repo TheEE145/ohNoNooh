@@ -1,0 +1,12 @@
+type: Floor
+name: blackkor
+isLiquid: true
+variants: 1
+blendGroup: water
+cacheLayer: tar
+speedMultiplier: 0.17
+liquidDrop: blackkor
+statusDuration: 240
+drownTime: 90
+walkEffect: melting
+drownUpdateEffect: burning

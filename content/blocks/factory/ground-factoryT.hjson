@@ -1,0 +1,24 @@
+type: UnitFactory
+size: 3
+consumes: {
+  power: 2
+}
+plans: [
+  {
+    unit: den
+    requirements: [
+      silicon/30
+      lead/15
+      iron/15
+    ]
+    time: 900
+  }
+]
+requirements: [
+  copper/50
+  lead/90
+  silicon/40
+  iron/100
+]
+category: units
+research: iron-furnace

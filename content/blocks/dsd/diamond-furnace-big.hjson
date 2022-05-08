@@ -1,0 +1,23 @@
+type: GenericCrafter
+itemCapacity: 30
+outputItem: diamond/5
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 70
+updateEffect: smeltsmoke
+consumes: {
+power: 1.2
+item: diamond-ore
+}
+requirements: [
+copper/75
+lead/25
+gold/50
+iron/75
+diamond/25
+]
+category: crafting
+research: diamond-furnace
+idleSound: respawning
+idleSoundVolume: 0.5
